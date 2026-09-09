@@ -7,14 +7,14 @@
 body{
 display: flex;
 flex-direction: column;
-width: 60vw;
-min-height: 100vh;
+width: 100%;
+min-height: 100%;
 
 }
 
 section{
     background-color: aqua;
-    height: 100px;
+    height: 100%;
     width: 100%;
 }
 
@@ -23,10 +23,99 @@ section{
     background-color: #ffffff;
 }
 
+#titulo-principal{
+    width: 46%;
+    height: 72px;
+
+    background-color: #ff9877;
+
+    position: relative;
+    margin: 62px auto;
+
+    display: flex;
+    align-items: center;
+}
+
+
+#texto-titulo-principal{
+    width: 70%;
+    height: 18px;
+    background-color: white;
+
+    margin-left: 24px;
+}
+
+#cuadrado-titulo-principal{
+    width: 72px;
+    height: 72px;
+    background-color: #656a73;
+
+    margin-left: auto;
+}
+
+#textos-inicio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 90%;
+    margin: 60px auto 0;
+}
+
+.texto-inicio{
+    width: 10px;
+    height: 19px;
+    background-color: #a100af;
+}
+
+
+
+
 #segunda-parte{
     height: 30vh;
     background-color: #c4edf1;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
 }
+
+#cuadrado-medio{
+    height: 25vh;
+    aspect-ratio: 1/1;
+    background-color: #91d3d9;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-cuadrado-medio{
+    display: flex;
+    flex-direction: row;
+}
+
+.cuadrado-info-medio{
+    width: 16px;
+    height: 16px;
+
+    background-color: #d5f3f5;
+
+    position: relative;
+}
+
+.texto-info-medio{
+    position: absolute;
+
+    left: 27px;
+    top: 0;
+
+    width: 126px;
+    height: 16px;
+
+    background-color: white;
+}
+
 
 #tercera-parte{
     height: 40vh;
@@ -34,6 +123,8 @@ section{
 
     display: flex;
     flex-direction: row;
+
+    padding: 10px;
 }
 
 .contenido-tercera-parte{
@@ -41,8 +132,39 @@ section{
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .cuadrado-tercera-parte{
+    height: 22vh;
+    aspect-ratio: 1/1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cuadrado1-tercera-parte{
+    background-color: #ff9978;
+}
+
+#cuadrado2-tercera-parte{
+    background-color: #abe0e5;
+}
+
+#cuadrado3-tercera-parte{
+    background-color: #ffc86d;
+}
+
+.titulo-cuadrado-tercera-parte{
+    height: 20px;
+    width: 90px;
+
     
+    margin-left: 10px;  
+    margin-right: 10px;
+    margin-top: 22px;
+
+    background-color: #ed6d47;
 }
